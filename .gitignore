@@ -1,0 +1,11 @@
+.DS_Store
+composer.phar
+*.swp
+*.log
+*.css.map
+
+node_modules/
+vendor/
+cache/
+.npm/
+.sass-cache/
