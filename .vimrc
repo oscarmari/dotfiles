@@ -69,3 +69,6 @@ set completeopt-=preview
 
 " Rainbow parentheses setup
 let g:rainbow_active = 1
+
+" Ctrl+P
+set runtimepath^=~/.vim/bundle/ctrlp.vim
