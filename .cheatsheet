@@ -1,0 +1,18 @@
+#########################################
+TERMINAL
+
+Ctrl + T => Find file
+Ctrl + R => Find in history
+
+Cmd + Shift + I => Run in all the windows
+
+fd <regex> -e <extension> => Find alternative [https://github.com/sharkdp/fd]
+j foo => jump to a directory that contains foo in its name
+  * jc for child directory
+  * jo to open the finder
+
+
+VS CODE
+
+Cmd + Shift + L => Select all occurrences
+#########################################
