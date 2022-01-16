@@ -1,18 +1,3 @@
-"Vundle plugin managet setup 
-set nocompatible              " be iMproved, required
-filetype off                  " required
-set rtp+=~/.vim/bundle/Vundle.vim
-call vundle#begin()
-Plugin 'VundleVim/Vundle.vim'
-Plugin 'Valloric/YouCompleteMe'
-Plugin 'StanAngeloff/php.vim.git'
-Plugin 'luochen1990/rainbow'
-Plugin 'w0rp/ale'
-" " All of your Plugins must be added before the following line
-call vundle#end()            " required
-filetype plugin indent on    " required
-"End Vundle setup
-
 syntax on
 set syntax=javascript
 set number
@@ -63,12 +48,3 @@ augroup OpenAllFoldsOnFileOpen
   autocmd!
   autocmd BufRead * normal zR
 augroup END
-
-" YouCompleteMe plugin setup
-set completeopt-=preview
-
-" Rainbow parentheses setup
-let g:rainbow_active = 1
-
-" Ctrl+P
-set runtimepath^=~/.vim/bundle/ctrlp.vim
